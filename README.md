@@ -1,12 +1,24 @@
-# Ineficiencia Laboral
-Se evaluara la ineficiencia de los operadores de una empresa de Telecomunicaciones.
+# Labor inefficiency in telecommunications CallMeMaybe
+The inefficiency of a telecommunications company's operators will be evaluated through the recorded results of their calls.
 
-# Telecomunicaciones: identificar operadores ineficaces
+## 🏁Objetive
+Identify ineffective operators of the CallMeMaybe company to impruve the team.
 
-### Ejercicio
+## 🖥Technologies used
+- **Python**: Pandas, numpy, seaborn, matplotlib, scipy.
+- **Jupyter Notebook**: Interactive environment for analysis.
+- **CSV Dataset**: Contains user behavior data.
 
-****El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva función que brindará a los supervisores y las supervisores información sobre los operadores menos eficaces. Se considera que un operador es ineficaz si tiene una gran cantidad de llamadas entrantes perdidas (internas y externas) y un tiempo de espera prolongado para las llamadas entrantes. Además, si se supone que un operador debe realizar llamadas salientes, un número reducido de ellas también será un signo de ineficacia.
+## 🔑Key Steps
+1. **Data Description**:
+   - Assessed the quality of the dataset and summarized its structure.
+2. **Data Preprocessing**:
+   - Handled missing values, corrected formatting issues, and removed duplicates.
+3. **Identify inefficient operators**:
+   - Data analysis in search of inferior operators according to criteria evaluated by the company.
+4. **Test statistical hypotheses**:
+   - The hypothesis regarding the inefficiency parameters of the employees selected as inefficient will be tested.
 
-- Lleva a cabo el análisis exploratorio de datos
-- Identificar operadores ineficaces
-- Prueba las hipótesis estadísticas
+## 🥇🏆Results
+The analysis confirms that:
+- Waiting time helps evaluate operator efficiency. Operators with high wait times are inefficient.
